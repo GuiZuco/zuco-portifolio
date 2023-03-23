@@ -1,0 +1,116 @@
+body{
+    font-family: 'Poppins';
+}
+
+#title{
+    background-color: #04ce5f;
+    color: #fff;
+}
+
+.container-fluid {
+    padding: 3% 18%;
+}
+
+
+h2{
+
+}
+
+h3{
+
+}
+
+
+/* NAVBAR */
+
+.navbar{
+    padding: 0 0 7.5rem;
+}
+
+.navbar-brand{
+    color: #2e2e2e;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    color: #fff;
+    font-size: 1.2rem;
+    transition: 0.3s;
+}
+
+.nav-link:hover{
+    transition: 0.3s;
+    color: #2e2e2e;
+}
+
+.nav-link::after{
+    content: " ";
+    border-bottom: #2e2e2e 2px solid;
+    display: block;
+    margin-top: 1px;
+    transform: scaleX(0);
+    transition: 0.3s;
+}
+
+.nav-link:hover::after{
+    transform: scaleX(1);
+
+}
+
+/* BUTTONS PRINCIPAL */
+
+.btn{
+    background-color: #2e2e2e;
+    margin: 5% 3% 5% 0;
+}
+
+.btn:hover{
+    background-color: #505050;
+}
+
+/* FEATURES */
+
+h1{
+    color: #2e2e2e;
+    font-size: 2.5em;
+    font-weight: 700;
+ }
+
+p{
+    font-size: 2.5em;
+    font-weight: 300;
+}
+
+#sobre-mim p{
+    font-size: 20px;
+    color: #fff;
+}
+
+.title-image{
+    width: 100%;
+}
+
+#sobre-mim{
+     background-color: #fff; 
+     background-color: #2e2e2e;
+    /* background-color: #04ce5f; */
+    padding: 7% 10%;
+}
+
+#sobre-mim h1{
+    color: #04ce5f;
+}
+
+.img-cv{
+    width: 100%;
+}
+
+#nego{
+    background-color: #04ce5f;
+    padding: 7% 10%;
+}
